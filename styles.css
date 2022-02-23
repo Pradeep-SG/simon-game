@@ -1,0 +1,98 @@
+body {
+  position: relative;
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#title, .info {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.back, .info {
+  cursor: pointer;
+  padding: 10px 10px 0;
+  border: 2px solid #eaeef5;
+  border-radius: 5px;
+}
+
+.instruction {
+  display: none;
+  font-family: 'IM Fell DW Pica SC', serif;
+  text-align: left;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+  position: absolute;
+  margin: auto 10%;
+  padding: 5% 10% 0;
+  background-color: #384353;
+  border: 10px solid #eaeef5;
+  border-radius: 100px;
+}
+
+.img-div {
+  display: block;
+  text-align: center;
+}
+
+.img {
+  width: 50%;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed, .back:hover, .info:hover {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
